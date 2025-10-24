@@ -1,5 +1,7 @@
 # ZenStack Reproduction Project
 
+Query is in `useLabPreviewZenStack.ts`, and you can see the actual results of the query on the UI.
+
 ## Database
 SQLite DB already has test data, no need to set it up.
 
