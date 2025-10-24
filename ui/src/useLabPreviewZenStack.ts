@@ -1,4 +1,4 @@
-import { useFindUniqueLabProfile } from './lab-profile'
+import { useFindUniqueLabProfile } from './hooks/lab-profile'
 
 export function useLabWithContent() {
   return useFindUniqueLabProfile({

@@ -4,7 +4,7 @@ import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { Provider as ZenStackHooksProvider } from '@zenstackhq/tanstack-query/runtime-v5/react'
 import { AuthProvider, useAuth } from './auth/AuthContext'
 import { fetchWithAuth } from './auth/fetchWithAuth'
-import { useLabWithContent } from './hooks/useLabPreviewZenStack'
+import { useLabWithContent } from './useLabPreviewZenStack'
 
 const queryClient = new QueryClient()
 
