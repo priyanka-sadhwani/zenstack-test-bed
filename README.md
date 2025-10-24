@@ -1,27 +1,22 @@
 # ZenStack Reproduction Project
 
-## Setup
+## Database
+SQLite DB already has test data, no need to set it up.
+
+## Server
 
 ```bash
-# Install dependencies
 cd server && yarn install
-cd ../ui && yarn install
+yarn zenstack generate
+yarn dev
 ```
 
-SQLite DB already has test data, no need to set it up. 
+Server runs on port 3001.
 
-# Prisma setup
-```
-cd ../ui
-yarn prisma:setup
-```
-
-## Start
+## UI
 
 ```bash
-# Start server (port 3001)
-cd server && yarn dev
-
-# Start UI
-cd ui && yarn start
+cd ui && yarn install
+yarn prisma:setup
+yarn start
 ```
