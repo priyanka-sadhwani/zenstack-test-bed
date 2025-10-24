@@ -1,0 +1,16 @@
+import "models"
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+plugin hooks {
+  provider = '@zenstackhq/tanstack-query'
+  output = "./hooks"
+  target = "react"
+}

@@ -1,0 +1,39 @@
+{
+  "name": "zenstack-reproduction-ui",
+  "version": "1.0.0",
+  "main": "index.tsx",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web",
+    "ts:check": "tsc --noEmit",
+    "lint": "expo lint",
+    "prisma:setup": "yarn prisma generate --schema=./schema.prisma"
+  },
+  "dependencies": {
+    "@expo/metro-runtime": "~4.0.1",
+    "@expo/vector-icons": "^15.0.2",
+    "@prisma/client": "6.16.2",
+    "@react-navigation/native": "^7.1.9",
+    "@react-navigation/stack": "^7.1.9",
+    "@tanstack/react-query": "^5.0.0",
+    "@zenstackhq/tanstack-query": "^2.19.0",
+    "expo": "~52.0.0",
+    "expo-status-bar": "~2.0.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-native": "0.76.3",
+    "react-native-safe-area-context": "4.12.0",
+    "react-native-screens": "~4.1.0",
+    "react-native-web": "~0.19.13",
+    "zod": "^4.1.9"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@types/react": "~18.3.12",
+    "@types/react-native": "~0.73.0",
+    "prisma": "6.16.2",
+    "typescript": "^5.0.0"
+  }
+}

@@ -1,0 +1,1 @@
+{"version":3,"file":"check.js","sourceRoot":"","sources":["../../../src/cli/actions/check.ts"],"names":[],"mappings":";;;;;;;;;;;AASA,sBAIC;AAbD,0CAAqE;AAMrE;;GAEG;AACH,SAAsB,KAAK,CAAC,YAAoB,EAAE,OAAgB;;;QAC9D,MAAM,MAAM,GAAG,MAAA,OAAO,CAAC,MAAM,mCAAI,IAAA,mCAAwB,GAAE,CAAC;QAC5D,MAAM,IAAA,uBAAY,EAAC,MAAM,CAAC,CAAC;QAC3B,OAAO,CAAC,GAAG,CAAC,sBAAsB,CAAC,CAAC;IACxC,CAAC;CAAA"}

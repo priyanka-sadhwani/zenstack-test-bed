@@ -1,0 +1,25 @@
+import { DataModel } from '@zenstackhq/language/ast';
+import { ValidationAcceptor } from 'langium';
+import { AstValidator } from '../types';
+/**
+ * Validates data model declarations.
+ */
+export default class DataModelValidator implements AstValidator<DataModel> {
+    validate(dm: DataModel, accept: ValidationAcceptor): void;
+    private validateFields;
+    private validateField;
+    private validateAttributes;
+    private parseRelation;
+    private isSelfRelation;
+    private validateRelationField;
+    private isFieldInheritedFromDelegateModel;
+    private validateBaseAbstractModel;
+    private validateBaseDelegateModel;
+    private validateInheritance;
+}
+export interface MissingOppositeRelationData {
+    relationDataModelName: string;
+    relationFieldName: string;
+    relationFieldDocUri: string;
+    dataModelName: string;
+}

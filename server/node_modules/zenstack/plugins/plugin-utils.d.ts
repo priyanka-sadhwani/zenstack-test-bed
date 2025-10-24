@@ -1,0 +1,30 @@
+import { type PolicyOperationKind } from '@zenstackhq/runtime';
+import { PluginGlobalOptions } from '@zenstackhq/sdk';
+import { Model } from '@zenstackhq/sdk/ast';
+import { PluginRunnerOptions } from '../cli/plugin-runner';
+export declare const ALL_OPERATION_KINDS: PolicyOperationKind[];
+/**
+ * Gets the nearest "node_modules" folder by walking up from start path.
+ */
+export declare function getNodeModulesFolder(startPath?: string): string | undefined;
+/**
+ * Ensure the default output folder is initialized.
+ */
+export declare function ensureDefaultOutputFolder(options: PluginRunnerOptions): string | undefined;
+/**
+ * Gets the default node_modules/.zenstack output folder for plugins.
+ * @returns
+ */
+export declare function getDefaultOutputFolder(globalOptions?: PluginGlobalOptions): string | undefined;
+/**
+ * Core plugin providers
+ */
+export declare enum CorePlugins {
+    Prisma = "@core/prisma",
+    Zod = "@core/zod",
+    Enhancer = "@core/enhancer"
+}
+/**
+ * Gets the custom output folder for a plugin.
+ */
+export declare function getPluginCustomOutputFolder(zmodel: Model, provider: string): string | undefined;
