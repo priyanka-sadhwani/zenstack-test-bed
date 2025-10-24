@@ -6,13 +6,12 @@
 # Install dependencies
 cd server && yarn install
 cd ../ui && yarn install
+```
 
-# Setup database
-cd ../server
-yarn db:push
-yarn db:seed
+SQLite DB already has test data, no need to set it up. 
 
 # Prisma setup
+```
 cd ../ui
 yarn prisma:setup
 ```
