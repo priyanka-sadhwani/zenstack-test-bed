@@ -205,10 +205,10 @@
     "@noble/hashes" "^2.0.1"
     error-causes "^3.0.2"
 
-"@prisma/client@6":
-  version "6.18.0"
-  resolved "https://registry.yarnpkg.com/@prisma/client/-/client-6.18.0.tgz#95f0efe03b5827d9bf5c80b6b7298e46094b5fbf"
-  integrity sha512-jnL2I9gDnPnw4A+4h5SuNn8Gc+1mL1Z79U/3I9eE2gbxJG1oSA+62ByPW4xkeDgwE0fqMzzpAZ7IHxYnLZ4iQA==
+"@prisma/client@6.17.1":
+  version "6.17.1"
+  resolved "https://registry.yarnpkg.com/@prisma/client/-/client-6.17.1.tgz#308f3bf7d050316578aa7fd6cd9deca671561f04"
+  integrity sha512-zL58jbLzYamjnNnmNA51IOZdbk5ci03KviXCuB0Tydc9btH2kDWsi1pQm2VecviRTM7jGia0OPPkgpGnT3nKvw==
 
 "@prisma/config@6.17.1":
   version "6.17.1"
@@ -487,7 +487,7 @@
   dependencies:
     langium "1.3.1"
 
-"@zenstackhq/runtime@2.20.1", "@zenstackhq/runtime@^2.9.3":
+"@zenstackhq/runtime@2.20.1", "@zenstackhq/runtime@^2.20.1":
   version "2.20.1"
   resolved "https://registry.yarnpkg.com/@zenstackhq/runtime/-/runtime-2.20.1.tgz#275769371f1f4572ec92624ea34369c4cef3cc7b"
   integrity sha512-4yIG3iR5yCpOPiyHdtkAawE297X4zU55z2Ch6uXgIGW2E3rPQbNaVBbnP64JSfbje2/jPyseR9cHACcTjxvsXw==
@@ -520,7 +520,7 @@
     ts-morph "^26.0.0"
     ts-pattern "^4.3.0"
 
-"@zenstackhq/server@^2.9.3":
+"@zenstackhq/server@^2.20.1":
   version "2.20.1"
   resolved "https://registry.yarnpkg.com/@zenstackhq/server/-/server-2.20.1.tgz#8e22b7f202d8af9ee14635768af4534fd14931b8"
   integrity sha512-jBAJnX28GOd7fq+8H08gRlmp94rmeGDt2Yjd1NNWTJ7z41nXitUjxjcvARtm7vZaoOVtLixKyoP3vhtpRpnAfg==
@@ -531,7 +531,7 @@
     ts-japi "^1.10.1"
     url-pattern "^1.0.3"
 
-"@zenstackhq/tanstack-query@^2.19.0":
+"@zenstackhq/tanstack-query@^2.20.1":
   version "2.20.1"
   resolved "https://registry.yarnpkg.com/@zenstackhq/tanstack-query/-/tanstack-query-2.20.1.tgz#5cbe1eac9bc55589efb4e75c1aae140c4c70e1df"
   integrity sha512-sAgi2I5kBc1T9y5KU5lgyxohG413HJwwHx29dC6f+fdJufXOt0l8QQFYoibS0edwBGJdcIVhz1PAEXQnChiBrA==
@@ -2189,7 +2189,7 @@ whatwg-url@^5.0.0:
     tr46 "~0.0.3"
     webidl-conversions "^3.0.0"
 
-zenstack@^2.11.4:
+zenstack@^2.20.1:
   version "2.20.1"
   resolved "https://registry.yarnpkg.com/zenstack/-/zenstack-2.20.1.tgz#fd13ce868ab1f9bd23a590d4d6d7bc0f250fdd52"
   integrity sha512-0QyTsK3Z2fPUSqJtet0bqWGWIT/Z+m/7pAXo/8yioXgf78RhnCYGPpiGYrhFaUnHbvRMKAeW8h5pVyrLIew1UA==

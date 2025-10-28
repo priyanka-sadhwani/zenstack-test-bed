@@ -12,13 +12,14 @@
     "db:seed": "tsx seed.ts"
   },
   "dependencies": {
-    "@prisma/client": "6",
-    "@zenstackhq/runtime": "^2.9.3",
-    "@zenstackhq/server": "^2.9.3",
-    "@zenstackhq/tanstack-query": "^2.19.0",
+    "@prisma/client": "6.17.1",
+    "@zenstackhq/runtime": "^2.20.1",
+    "@zenstackhq/server": "^2.20.1",
+    "@zenstackhq/tanstack-query": "^2.20.1",
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
+    "zenstack": "^2.20.1",
     "zod": "^3.22.0"
   },
   "devDependencies": {
@@ -29,6 +30,6 @@
     "prisma": "6",
     "tsx": "^4.0.0",
     "typescript": "^5.0.0",
-    "zenstack": "^2.11.4"
+    "zenstack": "^2.20.1"
   }
 }
